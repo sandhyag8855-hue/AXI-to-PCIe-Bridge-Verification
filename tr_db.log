@@ -1,0 +1,13 @@
+  CREATE_STREAM @0 {NAME:vseq T:Transactions SCOPE:uvm_test_top.env.vseqr STREAM:1260}
+  CREATE_STREAM @0 {NAME:axi_rst_seq T:Transactions SCOPE:uvm_test_top.env.agent.seqr STREAM:1335}
+  CREATE_STREAM @0 {NAME:axi_mt_wd T:Transactions SCOPE:uvm_test_top.env.agent.seqr STREAM:1355}
+  CREATE_STREAM @565000 {NAME:axi_mt_rd T:Transactions SCOPE:uvm_test_top.env.agent.seqr STREAM:1546}
+  CREATE_STREAM @895000 {NAME:axi_dma_cfg_wrd T:Transactions SCOPE:uvm_test_top.env.agent.seqr STREAM:1662}
+  CREATE_STREAM @955000 {NAME:ep_lup T:Transactions SCOPE:uvm_test_top.env.e_agt.seqr STREAM:1680}
+  CREATE_STREAM @1380000 {NAME:ep_cfg_wrd T:Transactions SCOPE:uvm_test_top.env.e_agt.seqr STREAM:1822}
+  CREATE_STREAM @2052000 {NAME:axi_dma_mwr T:Transactions SCOPE:uvm_test_top.env.agent.seqr STREAM:1934}
+  CREATE_STREAM @2385000 {NAME:mem_wr T:Transactions SCOPE:uvm_test_top.env.mem_agnt.mem_seqr STREAM:2004}
+  CREATE_STREAM @2684000 {NAME:axi_rx_desrc_rd T:Transactions SCOPE:uvm_test_top.env.agent.seqr STREAM:2034}
+  CREATE_STREAM @2805000 {NAME:axi_dma_mrd T:Transactions SCOPE:uvm_test_top.env.agent.seqr STREAM:2056}
+  CREATE_STREAM @2945000 {NAME:ep_mem_rd T:Transactions SCOPE:uvm_test_top.env.e_agt.seqr STREAM:2084}
+  CREATE_STREAM @3120000 {NAME:mem_axi_m_rd T:Transactions SCOPE:uvm_test_top.env.mem_agnt.mem_seqr STREAM:2110}
